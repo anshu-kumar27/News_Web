@@ -1,0 +1,104 @@
+<!-- this is index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news</title>
+    <script src="https://kit.fontawesome.com/e9c458349f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar #">
+        <ul class="navlist">
+            <div class="left">
+                <span class="navitem-1">NEWS</span>
+            </div>
+            <div class="right">
+                <li class="navitem-2">Home</li>
+                <li class="navitem-3">About</li>
+                <li class="navitem-4">Contacts</li>
+                <li class="navitem-5"><input class="enter" id="search-text" type="text" placeholder="search news..."></li>
+                <input type="button" value="Search" id="search-button" class="search-button" onclick="search()">
+            </div>
+        </ul>
+    </nav>
+    <!-- main page -->
+    <div class="hnews-container" id="hnews-container">
+      <div class="hnewscard" id="hnewscard">
+          <div class="hnewsimg" id="hnenwsimg">
+          <img id="img" class="himg" src="" alt="" srcset="">
+          </div>
+          <div class="hright">
+            <span class="hspan"></span>
+          <div class="hnews-title" id="hnews-title"></div>
+          <div class="hnews-source" id="hnews-source"></div>
+          <div class="hnews-desc" id="hnews-desc" ></div>
+        </div>
+      </div>
+  </div>
+  <div class="scrollY" id="scrollY"></div>
+    <!-- other news page -->
+    <div class="news-container" id="news-container">
+    <div class="newscard" id="newscard">
+        <div class="newsimg" id="nenwsimg">
+        <img id="img" class="img" src="" alt="" srcset="">
+        </div>
+        <div class="news-title" id="news-title"></div>
+        <div class="news-source" id="news-source"></div>
+        <div class="news-desc" id="news-desc" ></div>
+    </div>
+</div>
+
+    <!-- footer -->
+    <footer class="fottercontainer">
+        <div class="fotter-icon">
+          <div class="navitem-1">NEWS</div>
+        </div>
+        <div class="left-quick-links">
+            <span class="footertitle">Quick Links</span>
+            <ol id='quickLinksList'>
+            <li><a href="#scrollY">Trending</a></li>
+            <li><a href="#scrollY">India</a></li>
+            <li><a href="#scrollY">Technology</a></li>
+            <li><a href="#scrollY">Artificial Intelligence</a></li>
+            <li><a href="#scrollY">Sports</a></li>
+            <li><a href="#scrollY">Himachal</a></li>
+        </ol>
+        </div>
+
+            <div class="mid-about-1">
+            <span class="footertitle">Sources</span>
+            <ol>
+                <li>For icons : <a href="https://fontawesome.com/icons" target="_blank"> Font-Awesome </a></li>
+                <li>For fonts : <a href="https://fonts.google.com/" target="_blank">Google-Fonts</a></li>
+                <li>For News : <a href="https://newsapi.org/" target="_blank">News-Api</a> </li>
+            </ol>
+        </div>
+            <div class="mid-about-2">
+                <span class="footertitle">Created By</span>
+            <ol>
+              <li>Anshu kumar</li>
+              <li>Tanupriya gurung</li>
+          </ol>
+          </div>
+
+        </div>
+        <div class="right-contacts">
+            <span class="footertitle"> Contacts</span>
+            <ol> 
+                <li><i class="fa-solid fa-envelope"></i><span>Email</span></li>
+                <li><i class="fa-brands fa-linkedin"></i><span>Linkedin</span></li>
+                <li><i class="fa-brands fa-github"></i><span>Github</span></li>
+            </ol>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
